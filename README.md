@@ -8,8 +8,10 @@ Run the three sample Python programs (printtest.py, tiles.py and taxes.py) with 
 
 #### Task 2
 Write a program that prompts user to enter two legs of a right triangle and then calculate and output the hypotenuse. Note: use math module, e.g.  
->import math  
->root2 = 	math.sqrt(2)  
+
+	import math  
+	root2 = math.sqrt(2)  
+	
 Tests: (1) leg1: 3   leg2: 4    (2) leg1: 34   leg2: 21    (3) your own test data
 
 #### Task 3
@@ -45,11 +47,13 @@ Test: quicksort of list [50, 25, 67, 38, 19, 50, 38, 73, 22, 25, 50]
 
 #### Task 2
 Rewrite the following sumSq function to a tail recursion.
+
 	def sumSq (L) :  
 		if len(L) == 0 :  
 			return 0  
 		else :  
 			return L[0]*L[0] + sumSq(L[1:len(L)])  
+			
 Test: sumSq of list [1, 5, 2, 4, 9]  
 
 #### Task 3 
